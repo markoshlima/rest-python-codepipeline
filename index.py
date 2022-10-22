@@ -27,5 +27,5 @@ def get_produto(person_id):
     return("Not Found")
 
 @app.route('/up')
-def get_produtos():
+def up():
     return("UP")

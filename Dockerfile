@@ -8,7 +8,7 @@ RUN pipenv install flask
 
 RUN pipenv install marshmallow
 
-COPY . .
+COPY . ./
 
 RUN chmod +x ./bootstrap.sh
 

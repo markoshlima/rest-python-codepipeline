@@ -1,7 +1,6 @@
 from flask import Flask, jsonify, request
 from model.Person import Person, PersonSchema
 
-
 app = Flask(__name__)
 
 people = [

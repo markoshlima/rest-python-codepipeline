@@ -8,7 +8,8 @@ people = [
   Person (2, 'Joao', 85, 'Sao Paulo'),
   Person (3, 'Jose', 23, 'Recife'),
   Person (4, 'Markim', 30, 'Franca'),
-  Person (4, 'Meu Ovo', 30, 'Piroca'),
+  Person (5, 'Meu Ovo', 30, 'Piroca'),
+  Person (6, 'Moana', 31, 'Brasil'),
 ]
 
 @app.route('/person')

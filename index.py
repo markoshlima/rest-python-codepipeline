@@ -8,6 +8,7 @@ people = [
   Person (2, 'Joao', 85, 'Sao Paulo'),
   Person (3, 'Jose', 23, 'Recife'),
   Person (4, 'Markim', 30, 'Franca'),
+  Person (4, 'Meu Ovo', 30, 'Piroca'),
 ]
 
 @app.route('/person')
@@ -24,3 +25,7 @@ def get_produto(person_id):
       if(person['person_id'] == person_id):
         return person
     return("Not Found")
+
+@app.route('/up')
+def get_produtos():
+    return("UP")

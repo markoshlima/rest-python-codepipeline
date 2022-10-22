@@ -1,3 +1,6 @@
+#rest-python-codepipeline
+Project to test AWS CodePipeline and CodeBuild publishing a project into ECS
+
 **Pre-Requisites** <br />
 Python 3.7.10 <br />
 Flask 2.0.3 <br />
